@@ -1,0 +1,36 @@
+ion-list {
+  padding-bottom: 0;
+}
+
+.first {
+  text-align: center;
+}
+
+.first h3 {
+  color: #5f6368;
+}
+
+.first ion-button {
+  margin-top: 16px;
+  margin-bottom: 6px;
+  --ion-color-base: var(--ion-color-medium, #92949c)
+}
+
+.second {
+  /* padding: 0 0 14px 0; */
+}
+
+ion-avatar {
+  margin: 0 auto 10px;
+}
+
+.third ion-button {
+  margin: 16px auto 8px;
+}
+
+/* ion-item::slotted(.input-wrapper) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+} */

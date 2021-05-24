@@ -1,0 +1,1 @@
+import{t as a}from"./p-6b1b0178.js";async function o(o){(await a.create({message:o,duration:2e3})).present()}function s(){return Math.random()<.5?"Hello":"Hola"}const t=document.querySelector("ion-progress-bar");export{t as i,o as p,s}

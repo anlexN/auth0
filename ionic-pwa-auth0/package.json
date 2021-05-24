@@ -1,0 +1,27 @@
+{
+  "name": "ionic-pwa-auth0",
+  "private": true,
+  "version": "0.0.1",
+  "description": "ionic-pwa-auth0",
+  "license": "MIT",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "rm -r www && stencil build",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watch",
+    "generate": "stencil generate"
+  },
+  "devDependencies": {
+    "@ionic/core": "^5.6.7",
+    "@stencil/core": "^2.5.2",
+    "@types/jest": "^26.0.23",
+    "@types/puppeteer": "^5.4.3",
+    "puppeteer": "^9.1.1"
+  },
+  "dependencies": {
+    "@auth0/auth0-spa-js": "^1.15.0"
+  }
+}
